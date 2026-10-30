@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Unrestricted AI Host</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: sans-serif;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 500px;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            background: #111;
+            color: #fff;
+            border: 1px solid #333;
+            padding: 10px;
+            border-radius: 8px;
+            box-sizing: border-box;
+            resize: none;
+        }
+        button {
+            width: 100%;
+            padding: 15px;
+            background: #ffffff;
+            color: #000000;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        #output-window {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            background: #111;
+            border: 1px solid #333;
+            margin-top: 20px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img {
+            width: 100%;
+            height: 100px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Local Diffusion Host</h2>
+        
+        <!-- Prompt Box -->
+        <textarea id="prompt" placeholder="Type your unrestricted art prompt here..."></textarea>
+        
+        <!-- Trigger Button -->
+        <button id="generate-btn">Generate Art</button>
+        
+        <!-- Output Box -->
+        <div id="output-window">
+            <span id="status-text">Engine Ready</span>
+        </div>
+    </div>
+
+    <!-- ONNX Runtime Web Framework Library Link -->
+    <script src="https://jsdelivr.net"></script>
+    <script src="app.js"></script>
+</body>
+</html>
