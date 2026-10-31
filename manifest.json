@@ -3,7 +3,7 @@
   "name": "HOSTAI Unrestricted AI Host",
   "icons": [
     {
-      "src": "https://jsdelivr.net",
+      "src": "HOSTAI.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
