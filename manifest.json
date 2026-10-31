@@ -3,7 +3,7 @@
   "name": "HOSTAI Unrestricted AI Host",
   "icons": [
     {
-      "src": "HOSTAI.png",
+      "src": "HOSTAI.PNG",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
