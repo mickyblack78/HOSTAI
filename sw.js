@@ -1,10 +1,10 @@
-const CACHE_NAME = 'hostai-cache-v2'; // Increment this version number whenever you update your app files
+const CACHE_NAME = 'HOSTAI'; // Increment this version number whenever you update your app files
 const ASSETS = [
   './',
   './index.html',
   './app.js',
   './manifest.json',
-  'https://jsdelivr.net'
+  'HOSTAI.PNG'
 ];
 
 // Install stage: Force the new service worker to take over immediately without waiting
